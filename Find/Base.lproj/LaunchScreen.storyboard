@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZY6-3W-9TY">
+                                <rect key="frame" x="95" y="301" width="200" height="252"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="findWallp" translatesAutoresizingMaskIntoConstraints="NO" id="NRg-fm-fHd">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="IKY-Qc-ESz"/>
+                                            <constraint firstAttribute="width" constant="200" id="l7i-Fr-8gr"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uy3-jl-gaQ">
+                                        <rect key="frame" x="0.0" y="220" width="200" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                        <color key="textColor" systemColor="systemIndigoColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="uy3-jl-gaQ" firstAttribute="leading" secondItem="ZY6-3W-9TY" secondAttribute="leading" id="2x0-k0-sTF"/>
+                                    <constraint firstItem="NRg-fm-fHd" firstAttribute="leading" secondItem="ZY6-3W-9TY" secondAttribute="leading" id="XVa-ff-6y0"/>
+                                    <constraint firstAttribute="trailing" secondItem="NRg-fm-fHd" secondAttribute="trailing" id="f63-R5-MZg"/>
+                                    <constraint firstItem="uy3-jl-gaQ" firstAttribute="top" secondItem="NRg-fm-fHd" secondAttribute="bottom" constant="20" id="fwl-6i-7DU"/>
+                                    <constraint firstAttribute="trailing" secondItem="uy3-jl-gaQ" secondAttribute="trailing" id="mhD-Yf-7zq"/>
+                                    <constraint firstItem="NRg-fm-fHd" firstAttribute="top" secondItem="ZY6-3W-9TY" secondAttribute="top" id="nHq-52-vFX"/>
+                                    <constraint firstAttribute="bottom" secondItem="uy3-jl-gaQ" secondAttribute="bottom" id="uqV-iJ-qWb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZY6-3W-9TY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="F1V-Ix-PV5"/>
+                            <constraint firstItem="ZY6-3W-9TY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="cgW-2K-i8R"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="findWallp" width="1536" height="1536"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
